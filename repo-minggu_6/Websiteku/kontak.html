@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="faviconku.ico" type="image/x-icon">
+    <link rel="icon" href="/faviconku.ico" type="image/x-icon">
+</head>
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background-image: url("blue.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 25px;
+    }
+
+    nav {
+        display: flex;
+        background-color: rgb(13, 15, 20);
+        list-style-type: none;
+        padding: 0;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: rgb(238, 238, 238);
+        padding: 15px 30px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    input[type=email] {
+        width: 45em;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: 1px solid rgb(219, 219, 219);
+        border-radius: 4px;
+        font-size: 20px;
+        resize: vertical;
+    }
+
+    textarea {
+        width: 45em;
+        padding: 50px 20px;
+        margin: 8px 0;
+        border: 1px solid rgb(219, 219, 219);
+        border-radius: 4px;
+        font-size: 20px;
+        resize: vertical;
+    }
+
+    input[type=submit]{
+        width: 6em;
+        height: 30px;
+        background-color: rgb(87, 126, 231);
+        box-sizing: border-box;
+        border: 2px solid rgb(219, 219, 219);
+        border-radius: 4px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    footer {
+        background-color: rgba(54, 50, 50, 0.904);
+        color: rgb(156, 163, 206);
+        text-align: center;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.8em;
+    }
+</style>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cv-name.pdf">Downloads CV</a>
+        <a href="kontak.html">Contact</a>
+        <a href="tentang.html">About me</a>
+    </nav>
+
+    <hr />
+
+    <div>
+        <h1>Kontak Saya</h1>
+        <form>
+            <label for="email">Email</label><br />
+            <input type="email" name="email" placeholder="alamat email"><br />
+            <label for="message">Message</label><br />
+            <textarea type="message" placeholder="Tulis pesan anda ....." rows="4" cols="80"></textarea>
+            <br />
+            <br />
+            <input type="submit" value="Kirim" />
+        </form>
+    </div>
+
+    <hr />
+    <footer>
+        <p>Cpoyright &copy; 2021 @Selma Marsya</p>
+    </footer>
+    
+</body>
+</html>

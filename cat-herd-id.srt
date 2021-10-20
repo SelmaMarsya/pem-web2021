@@ -1,9 +1,0 @@
-WEBVTT
-
-0
-00:00:02,000 --> 00:00:04,000
-Penunggang kuda sedang mengejar.
-
-1
-00:00:05,000 --> 00:00:08,000
-kucing yang sedang berlari.
