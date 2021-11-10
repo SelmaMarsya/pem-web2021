@@ -1,0 +1,66 @@
+body{
+    background: rgb(58, 53, 53);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: yellow;
+}
+
+.ketengah{
+    margin: 10px auto;
+    width: 1150px;
+}
+
+/*
+Nilai 20 (nilai tinggi rendahnya bayangan)
+nilai 10 (nilai untuk mengatur rata kiri kanan bayangan)
+niai 5 (nilai untuk mengatur ketebalan bayangan, dan yang terakhir untuk mengatur warna bayangan)
+*/
+
+.tulisan1{
+    text-shadow: 20px 10px 5px rgb(248, 122, 185);
+}
+
+/*
+Nilai 0 ke-1 (nilai tinggi rendahnya bayangan)
+nilai 0 ke-2 (nilai untuk mengatur rata kiri kanan bayangan)
+nilai 20 (nilai untuk mengatur ketebalan bayangan, dan yang terakhir untuk mengatur warna bayngan)
+*/
+
+.tulisan2{
+    text-shadow: 0px 0px 20px rgb(245, 161, 161);
+}
+
+/*
+Nilai 20 ke-1 (nilai tinggi rendagnya bayangan)
+Nilai 20 ke-2 (nilai untuk mengatur rata kiri kanan bayangan)
+Nilai 40 (nilai radius bayngan)
+Nilai 10 (nilai ketebalan bayangan, dan yang terakhir untuk mengatur warna bayngan)
+*/
+
+.kotak1{
+    background:rgb(235, 47, 125);
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    float: left;
+    box-shadow: 20px 20px 40px 10px rgb(250, 109, 163);
+}
+
+/*
+Nilai 0 ke-1 (nilai tinggi rendagnya bayangan)
+Nilai 0 ke-2 (nilai untuk mengatur rata kiri kanan bayangan)
+Nilai 10 ke-1 (nilai radius bayngan)
+Nilai 10 ke-2 (nilai ketebalan bayangan, dan yang terakhir untuk mengatur warna bayngan)
+*/
+
+.kotak2{
+    background: rgb(235, 47, 125);
+    width: 300px;
+    margin: 20px;
+    float: right;
+    height: 300px;
+    box-shadow: 0px 0px 10px 10px rgb(250, 109, 163);
+}

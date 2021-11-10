@@ -1,0 +1,35 @@
+body{
+    background: rgb(241, 148, 148);
+    font-family: roboto;
+    text-align: center;
+}
+
+h1,h2{
+    color: rgb(90, 85, 80);
+}
+
+.ketengah{
+    margin: 10px auto;
+    width: 1150px;
+}
+
+.kotak1{
+    background: rgb(130, 234, 238);
+    padding: 20px;
+    float: left;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.kotak2{
+    background: rgb(236, 238, 130);
+    padding: 20px;
+    float: left;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    -ms-transform: translate(50px,100px);
+    -webkit-transform: translate(50px,100px);
+    transform: translate(50px,100px);
+}
