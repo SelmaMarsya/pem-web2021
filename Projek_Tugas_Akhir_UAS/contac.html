@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/19e9a81c43.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/stylecontac.css" />
+    </head>
+    <body>
+        <!---header--->
+        <header class="header">
+            <div class= "logo">
+                <h3>Skinnysell</h3>
+            </div>
+    
+            <!---navbar--->
+            <nav class="navbar">
+                <a href="index2.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="Tips&triks.html">Tips and Triks</a>
+                <a href="#contac.html">Contac</a>
+            </nav>
+    
+            <div class="icons">
+                <a><i class="fas fa-search" id="search-btn"></i></a>
+                <a href="login.html"><i class="fas fa-user-plus" id="login-btn"></i></a>
+                <a><i class="fas fa-heart" id="fav-btn"></i></a>
+                <a href="fromregestrasi.html"><i class="fas fa-shopping-bag"></i></a>
+            </div>
+    
+            <!---search--->
+            <form action="" class="search-from">
+                <input type="search" id="search-box" placeholder="serch brand..." class="box">
+                <label for="search-box" class="fas fa-search" ></label>
+            </form>
+
+            <!---favorite--->
+            <div class="shopping-cart">
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="img/gambar4.png" alt="">
+                    <div class="menu"> 
+                        <h3>Serum</h3>
+                        <span class="harga">Rp.50.000</span>
+                        <span class="jumlah">Jml : 1</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="img/gambar5.png" alt="">
+                    <div class="menu">
+                        <h3>Day Cream</h3>
+                        <span class="harga">Rp.50.000/-</span>
+                        <span class="jumlah">Jml : 1</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="img/gambar6.png" alt="">
+                    <div class="menu">
+                        <h3>Masker Wajah</h3>
+                        <span class="harga">Rp.50.000/-</span>
+                        <span class="jumlah">Jml : 1</span>
+                    </div>
+                </div>
+                <div class="Total">Total : Rp.250.000</div>
+                <a href="#" class="button">Checkout</a>
+            </div>
+            
+        </header>
+    
+         <!---Benner--->
+         <section class="cover">
+            <div class="awal">
+                <h1>Contact</h1>
+            </div>
+        </section>
+
+        <!---from contac--->
+        <form action="action" method="POST" name="contac" class="email">
+            <div class="question">
+                <h2>Got Question ?</h2>
+                <p>kami dengan senang hati akan membantu kamu!</p>
+                <p>Hubungi kami atau sampaikan pertanyaan kamu melalui formulir ini</p>
+            </div>
+            <section class="cover3">
+                <br>
+                <div class="contact">
+                    <table>
+                        <tr>
+                            <td><label for="email">E-Mail</label></td>
+                            <td><input type="text" id="email" name="email" placeholder="input nama ..." ></td>
+                        </tr>
+                        <tr>
+                            <td><label for="nama">Nama</label></td>
+                            <td><input type="text" id="name" name="nama" placeholder="input email ..." ></td>
+                        </tr>
+                        <tr>
+                            <td><label for="msg" >Message</label></td>
+                            <td><textarea name="message" placeholder="Tuliskan pesan anda ..." ></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="submit" name="fsubmit" value="Kirim"></td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+            <!---Contac person--->
+            <section class="contac">
+                <h1 class="head1">CONTAC PERSON</h1>
+                <div class="linee"></div>
+                <div class="boxcontac">
+                    <div class="isicontac">
+                        <img src="img/model6.jpg" alt="">
+                        <h2>Diana Anggita</h2>
+                        <div class="icon">
+                            <i class="fas fa-phone"> 081898345637</i>
+                        </div>
+                    </div>
+        
+                    <div class="isicontac">
+                        <img src="img/model8.jpg" alt="">
+                        <h2>Selma Marsya</h2>
+                        <div class="icon">
+                            <i class="fas fa-phone"> 085878245637</i>
+                        </div>
+                    </div>
+        
+                    <div class="isicontac">
+                        <img src="img/model10.jpg" alt="">
+                        <h2>Syakirra Jasmine</h2>
+                        <div class="icon">
+                            <i class="fas fa-phone"> 082878545938</i>
+                        </div>
+                    </div>    
+                </div>
+            </section>
+            
+        </form>
+
+        <!---footer--->
+        <footer>
+            <div class="footer"> 
+                <h3>Skinnysell</h3>
+                <div class="teks">
+                    <p>platfrom Skinecare dan Make-Up nomor 1 di Indonesia</p>
+                    <p>E-mail : Skinnysell.id@gmail.com</p>
+                    <p>Phone : 085878434602</p>
+                </div>
+                <div class="medsos">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div> 
+            
+            <div class="footer2" >
+                <p>Copyright &copy; 2021@Skinnysell.</p>
+            </div>
+
+        </footer> 
+    <script src="js/script.js"></script>
+</body>
+</html>

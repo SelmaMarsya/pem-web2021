@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>from pembayaran</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/19e9a81c43.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/stylefrom.css" />
+    </head>
+    <body>
+        <!---header--->
+        <header class="header">
+            <div class= "logo">
+                <h3>Skinnysell</h3>
+            </div>
+    
+            <!---navbar--->
+            <nav class="navbar">
+                <a href="index2.html" class="active">Home</a>
+                <a href="#about.html">About</a>
+                <a href="Tips&triks.html">Tips and Triks</a>
+                <a href="contac.html">Contac</a>
+            </nav>
+    
+            <div class="icons">
+                <a><i class="fas fa-search" id="search-btn"></i></a>
+                <a href="login.html"><i class="fas fa-user-plus" id="login-btn"></i></a>
+                <a><i class="fas fa-heart" id="fav-btn"></i></a>
+                <a href="fromregestrasi.html"><i class="fas fa-shopping-bag"></i></a>
+            </div>
+    
+            <!---search--->
+            <form action="" class="search-from">
+                <input type="search" id="search-box" placeholder="serch brand..." class="box">
+                <label for="search-box" class="fas fa-search" ></label>
+            </form>
+
+            <!---favorite--->
+            <div class="shopping-cart">
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="img/gambar4.png" alt="">
+                    <div class="menu"> 
+                        <h3>Serum</h3>
+                        <span class="harga">Rp.50.000</span>
+                        <span class="jumlah">Jml : 1</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="img/gambar5.png" alt="">
+                    <div class="menu">
+                        <h3>Day Cream</h3>
+                        <span class="harga">Rp.50.000/-</span>
+                        <span class="jumlah">Jml : 1</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="img/gambar6.png" alt="">
+                    <div class="menu">
+                        <h3>Masker Wajah</h3>
+                        <span class="harga">Rp.50.000/-</span>
+                        <span class="jumlah">Jml : 1</span>
+                    </div>
+                </div>
+                <div class="Total">Total : Rp.250.000</div>
+                <a href="#" class="button">Checkout</a>
+            </div>
+        </header>
+    
+        <!---Benner--->
+        <section class="cover">
+            <div class="awal">
+                <h1>From Pembayarn</h1>
+            </div>
+        </section>
+
+        <!---tabel from pembayaran--->
+        <form action="action" method="POST" name="fromregestrasi" class="pembayaran">
+            <h2>Lengkapi From Di bawah Ini !</h2>
+
+            <!---tabel regrestasi--->
+            <div class="cover4">
+                <h3>Regrestasi</h3>
+                <div class="reg">
+                    <label for="nama">Nama Lengkap</label><br>
+                    <input type="text" id="nama" placeholder="input nama ..." class="box"><br>
+                    <label for="email">E-mail</label><br>
+                    <input type="text" id="email" placeholder="input email ..." class="box"><br>
+                    <label for="alamat">Almat</label><br>
+                    <input type="text" id="alamat" placeholder="input alamat ..." class="box"><br>
+                    <label for="no">No. Telephone</label><br>
+                    <input type="text" id="no" placeholder="input no.telephone..." class="box"><br>
+                    <label for="kode">Kode Pos</label><br>
+                    <input type="text" id="kode" placeholder="input kode pos..." class="box"><br>
+                </div>
+            </div> 
+
+            <!---tabel checkout--->
+            <div class="cover4">
+                <h4 class="cekout">Chekout</h4>
+                <label for="order">Nomor Order</label><br>
+                <input type="text" id="order" placeholder="input no.order ..." class="box"><br>
+                <div class="isicekout">
+                    <h5>Pesanan</h5>
+                    <div class="pesan">
+                        <div class="gbr1">
+                            <img src="img/gambar14.jpg">
+                            <div class="text">
+                                <p>ERHA Serum Whitening</p>
+                                <p>x2</p>
+                                <p>Rp. 50.000</p>
+                            </div>
+                        </div>
+                        <div class="gbr1">
+                            <img src="img/gambar15.png">
+                            <div>
+                                <p>WARDAH Blash on</p>
+                                <p>x1</p>
+                                <p>Rp. 60.000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <label for="metod">Metode Pembayaran</label><br>
+                    <select type="text1" id="metod" name="metod"><br>
+                        <option value="">::Pilih Metode Pembayaran::</option>
+                        <option value="tsf">Trnsfer</option>
+                        <option value="indo">Indomart</option>
+                        <option value="alfa">Alfamart</option>
+                        <option value="cod">COD</option>
+                    </select>
+                    <br>
+                    <label for="byr">Transaksi</label><br>
+                    <select type="text1" id="byr" name="byr"><br>
+                        <option value="">::Pilih Bank::</option>
+                        <option value="mndr">Mandiri</option>
+                        <option value="bca">BCA</option>
+                        <option value="bni">BNI</option>
+                        <option value="bjtg">Bank Jateng</option>
+                    </select>
+
+                    <label for="byr">Pengiriman</label><br>
+                    <select type="text1" id="byr" name="byr"><br>
+                        <option value="">::Pilih Pengiriman::</option>
+                        <option value="jnt">JNT Express</option>
+                        <option value="scpt">Si Cepat Express</option>
+                        <option value="jne">JNE Express</option>
+                    </select>
+
+                    <h5>Total</h5>
+                    <div class="total">
+                        <div class="sub">
+                            <p>Subtotal Produk</p>
+                            <p class="hrg">Rp. 160.000</p>
+                        </div>
+                        <div class="sub">
+                            <p>Subtotal Pengiriman</p>
+                            <p class="hrg1">Rp. 10.000</p>
+                        </div>
+                        <div class="sub">
+                            <h3>Total Pembayaran</h3>
+                            <p class="hrg2">Rp. 170.000</p>
+                        </div>
+                    </div>   
+                    <input type="submit" name="fsubmit" value="Kirim" class="submit">
+
+                </div>
+            </div>
+        </div> 
+    </form>
+
+    <!---Footer--->
+    <footer>
+        <div class="footer"> 
+            <h3>Skinnysell</h3>
+            <div class="teks">
+                <p>platfrom Skinecare dan Make-Up nomor 1 di Indonesia</p>
+                <p>E-mail : Skinnysell.id@gmail.com</p>
+                <p>Phone : 085878434602</p>
+            </div>
+            <div class="medsos">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div> 
+        
+        <div class="footer2" >
+            <p>Copyright &copy; 2021@Skinnysell.</p>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
